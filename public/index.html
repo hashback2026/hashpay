@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hashback Bulk STK Push</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Hashback Bulk STK Push</h1>
+
+    <label>Amount</label>
+    <input type="number" id="amount" placeholder="Enter amount">
+
+    <label>Reference</label>
+    <input type="text" id="reference" placeholder="Reference">
+
+    <label>Phone Numbers</label>
+    <textarea id="numbers" rows="10" placeholder="254712345678&#10;254700000000"></textarea>
+
+    <button onclick="sendSTK()">Send Bulk STK</button>
+
+    <div id="results"></div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
